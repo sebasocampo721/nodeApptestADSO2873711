@@ -9,9 +9,9 @@
   "test": {
     "username": "nodejs_app_test_ziz0_user",
     "password": "BzaNYRmqsyuCOaObhV5LFU9YIpBddqiA",
-    "database": "dnodejs_app_test_ziz0",
+    "database": "nodejs_app_test_ziz0",
     "host": "dpg-d0qs58emcj7s73ebju10-a",
-    "dialect": "postgres",
+    "dialect": "Postgres",
     "dialectOptions": {
       "ssl": {
         "require": true,
