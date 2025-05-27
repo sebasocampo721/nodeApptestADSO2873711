@@ -11,7 +11,7 @@
     "password": "BzaNYRmqsyuCOaObhV5LFU9YIpBddqiA",
     "database": "nodejs_app_test_ziz0",
     "host": "dpg-d0qs58emcj7s73ebju10-a",
-    "dialect": "Postgres",
+    "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
         "require": true,
