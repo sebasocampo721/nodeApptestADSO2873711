@@ -7,7 +7,7 @@
     "dialect": "mysql"
   },
   "test": {
-    "username": "seapi",
+    "username": "root",
     "password": "BzaNYRmqsyuCOaObhV5LFU9YIpBddqiA",
     "database": "dnodejs_app_test_ziz0",
     "host": "dpg-d0qs58emcj7s73ebju10-a",
