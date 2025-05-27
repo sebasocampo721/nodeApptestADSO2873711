@@ -10,7 +10,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 app.set('port', process.env.PORT || 4000);
 
-app.use(morgan('combinedZ'));
+app.use(morgan('combined'));
 // Permite recibir datos de el formulario
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());// Permite recibir solicitudes en JSON
@@ -19,6 +19,10 @@ app.use(bodyParser.json());// Permite recibir solicitudes en JSON
 //rutas
 //rutas de usuarios para la v1 del API
 app.use('/api/v1/users',require('./api/v1/user.routes'));
+
+app.use('/api/v1/users', require('./api/v1/user.routes'));
+app.use('/api/v1/articles',require('./api/v1/articles.routes'));
+app.use('/api/v1/categories',require('./api/v1/categories.routes'));
 
 
 //Rutas del API
